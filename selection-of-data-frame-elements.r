@@ -17,3 +17,12 @@ planets_df[1:3,"type"]
 
 # Select first 5 values of diameter column
 planets_df[1:5, "diameter"]
+
+
+# selection of entire column:
+
+# Select the rings variable from planets_df
+rings_vector <- planets_df$rings
+  
+# Print out rings_vector
+rings_vector
