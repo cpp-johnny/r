@@ -26,3 +26,8 @@ rings_vector <- planets_df$rings
   
 # Print out rings_vector
 rings_vector
+
+# using subset to select only specific 
+subset(planets_df, subset = rings) # only select rings
+subset(planets_df, subset = rings > 1) # only select rings > 1
+
